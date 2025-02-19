@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(176, 233, 255);
+    color: black;
+}
+header{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding-top: 20px;
+}
+.h1-logo{
+    color: gray;
+    margin-left: 10px;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+a{
+    color: gray;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+.book-button {
+    background-color: #6c21f7;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 15px;
+}
+.book-button:hover {
+    background-color: #6C33D1;
+}
+
+#about h2{
+    text-align: left;
+    text-decoration: underline;
+}
+#about h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+}
+.choose-us{
+    display: flex;
+    justify-content: center;
+}
+.choose{
+    background-color: black;
+    color: gray;
+    text-align: justify;
+    width: 30%;
+    margin: 10px 15px;
+    border-radius: 6px;
+    padding: 50px 3px 40px 3px;
+}
+.choose h2{
+    margin: 10px;
+}
+.choose p{
+    margin: 10px;
+}
+footer{
+    background-color: black;
+    color: gray;
+}
+.footer-cont{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content{
+    margin: 10px 15px;
+}
+.cont-1 dt{
+    text-decoration: underline;
+    font-size: 20px;
+    margin: 10px;
+}
+.cont-1 dd{
+    font-size: 18px;
+}
+.cont-2{
+    margin-top: 180px;
+    margin-right: 50px;
+}
+
+#destinations h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#destinations p{
+    text-align: justify;
+    font-size: 30px;
+    font-weight: bold;
+}
+.dest-container-1{
+    display: flex;
+    justify-content: center;
+}
+.dest-container-2{
+    display: flex;
+    justify-content: center;
+}
+.dest-container-3{
+    display: flex;
+    justify-content: center;
+}
+.dest-container-4{
+    display: flex;
+    justify-content: center;
+}
+.dest{
+    background-color: transparent;
+    color: skyblue;
+    text-align: justify;
+    width: 50%;
+    margin: 10px 10px;
+    border: .5px solid skyblue;
+    border-radius: 10px;
+    padding: 30px 0px 30px 20px;
+}
+.dest dt{
+    text-decoration: underline;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.dest dd{
+    font-size: 18px;
+}
+.home{
+    display: flex;
+}
+.img{
+    width: 95%;
+    height: 650px;
+}
+.booking h1{
+    text-align: center;
+}
+.select-dest{
+    background-color: gray;
+    color: black;
+    display: block;
+    width: 90%;
+    padding: 15px 15px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 10px;
+}
+.labels{
+    margin: 10px;
+}
+.select-dest-1{
+    background-color: gray;
+    color: black;
+    display: block;
+    width: 30%;
+    padding: 15px 15px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 10px;
+}
+.select-dest-2{
+    background-color: gray;
+    color: black;
+    display: block;
+    width: 35%;
+    padding: 15px 15px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 10px;
+}
+.btn-2{
+    background-color: #6c21f7;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 30px;
+    padding: 15px 200px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.labels-1{
+    margin-left: 35%;
+}
+.select-dest-3{
+    background-color: gray;
+    color: black;
+    display: block;
+    width: 30%;
+    padding: 15px 15px;
+    margin: 10px 35%;
+    border: none;
+    border-radius: 10px;
+}
+.select-dest-4{
+    background-color: gray;
+    color: black;
+    display: block;
+    width: 28%;
+    padding: 15px 15px;
+    margin: 10px 35%;
+    border: none;
+    border-radius: 10px;
+}
+.btn-3{
+    background-color: #6c21f7;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 35%;
+    padding: 15px 150px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.aircrafts h1{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.aircrafts h2{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 40px;
+}
+.booking-footer{
+    background-color: transparent;
+    border-top: 1px solid white;
+}
